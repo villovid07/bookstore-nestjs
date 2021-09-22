@@ -7,5 +7,6 @@ async function bootstrap() {
   //api/endpointname
 
   await app.listen(AppModule.port);
+  console.log("servidor iniciado en "+ AppModule.port);
 }
 bootstrap();
